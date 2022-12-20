@@ -1,0 +1,68 @@
+.cardHomeLocation{
+    display: flex;
+    justify-content: space-between;
+}
+.itermHome{
+    width: 23%;
+    height: 11rem;
+    border: 1px solid #0172BE;
+    margin: 0 .5rem  1rem;
+    border-radius: .3rem;
+}
+.itermHome img{
+    width: 100%;
+    height: 100%;
+}
+.itermTimeLoc p {
+    font-size: 1.1rem;
+    margin: 0 1rem 0 0;
+    color: #7DB749;
+
+}
+.itermDetailsLoc button {
+    margin: 0 0 0 1rem;
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    background-color: #7DB749;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.itermDetailsLoc button:hover {
+    color: #0172BE;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+.btnInfoLoc button {
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #7DB749;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.btnInfoLoc button:hover {
+    color: #0172BE;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+.LinkVillaLoc{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    color: #393E35;
+    border-bottom: 1px solid #393E35;
+}
+.LinkLieuLoc{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    color: #393E35;
+    border-bottom: 1px solid #393E35;
+}

@@ -1,0 +1,47 @@
+.containerPublic{
+    background-color: rgb(226, 226, 226);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlePublic{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.itermInfo{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.contentPublic-iterm{
+    
+    width: 85rem;
+    height: 28rem;
+}
+.inputContent input{
+    border: 1px solid #0172BE;
+    position: absolute ;
+    width: 46rem;
+    height: 4.8rem;
+    border-radius: 1.8rem;
+}
+
+.btnSeachArt button{
+    position: relative;
+    bottom: -.3rem;
+    left: 33.6rem;
+    width: 12rem;
+    height: 4.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    background-color: #0172BE;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.inputContent input[type=text]{
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}

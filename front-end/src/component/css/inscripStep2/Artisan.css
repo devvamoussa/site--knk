@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerInscri{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/bacgroungImage1.png");
+    background-repeat : no-repeat ;
+    background-size: 100% 100%;
+}
+.contenSuiteIns{
+    background-color: white;
+    box-shadow: 9px 10px 5px -5px rgba(0,0,0,0.2);
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 38rem;
+    height: auto;
+    padding: 1rem;
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.boxContent{
+    border-bottom: 1.5px solid #0172be;
+    padding-bottom: 0.5rem;
+    color: #0172be;
+}
+.input-metier select{
+    height: 2.5rem;
+    width: 36rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2083C6;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+.input-metier{
+    color: #0172be;
+    margin: 1rem 0 1rem 0;
+}
+.content-loc{
+    display: flex;
+    justify-content: space-between;
+}
+.inputLoc select{
+    height: 2.5rem;
+    width: 16.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2083C6;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.inputLoc {
+    color: #0172be;
+}
+
+.inputInfo  select{
+    height: 2.5rem;
+    width: 36rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2083C6;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.inputInfo {
+    margin: 1rem 0 1rem 0;
+    color: #0172be;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSubmit button{
+    cursor: pointer;
+    height: 2.5rem;
+    width: 26rem;
+    border-radius: 0.3rem;
+    background-color: #0172be;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    border: none;
+    color: white;
+}
+.btnRetour{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.btnRetour p{
+    cursor: pointer;
+    border-bottom: 1px solid #0172be;
+    color: #0172be;
+    font-size: 1.2rem;
+
+}
+.btnRetour Link{
+    border: none;
+    text-decoration: none;
+}
+
+.titleApi {
+    font-size: .5rem;
+    color: #0172be;
+}

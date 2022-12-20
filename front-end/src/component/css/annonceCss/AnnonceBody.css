@@ -1,0 +1,165 @@
+.contentAnnonce{
+    width: 98%;
+    height: auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .8rem .2rem 1rem 1rem;
+
+}
+.ContentShow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 100%;
+}
+
+.add-annonce{
+    display: flex;
+}
+
+.annoce-detail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content-detail-rigth{
+    margin-left: 1rem;
+}
+.content-detail-left{
+    width: 19rem;
+    background-color: #94d1ff;
+    height: 22.1rem;
+    margin: 1.5rem 1.5rem 0 1rem;
+    padding: .5rem .5rem 0 1rem;
+}
+.regle-annoce p{
+    font-weight: bold;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+
+}
+.regle-annoce-iterm p{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.formVille input{
+    width: 30rem;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    border: 1px solid #2083C6;
+    margin-bottom: 2rem;
+}
+
+.formVille p{
+    margin-bottom: .8rem;
+    color: #2083C6;
+}
+
+.formVille input[type=text] {
+    padding-left: 0.8rem;
+}
+
+.content-addPicture{
+    display: flex;
+    justify-content: space-between;
+}
+.picture-annonce i{
+    font-size: 4rem;
+    color: #2083C6;
+    border-radius: .2rem;
+}
+.inputFileAnnonce input[type=file] {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    background-color: #0172be;
+    border: none;
+    color: #0172be;
+    cursor: pointer;
+    width: 20rem;
+    height: 5rem;
+    left: 1rem;
+}
+.content-addPicture-iterm {
+    position: relative;
+    padding-top: .3rem;
+    display: flex;
+    margin-top: .5rem;
+    width: 21rem;
+    height: 6rem;
+    border: 2px dashed #0172be;
+}
+.AddAnonce input[type=file] {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+
+    background-color: #0172be;
+    border: none;
+    color: #0172be;
+    cursor: pointer;
+    width: 14rem;
+    height: 8rem;
+    
+}
+.typeImgAnonce p{
+    position: absolute;
+    top: 44rem;
+    left: 35%;
+    font-size: .9rem;
+    color: #929292;
+}
+.btn-annonce-etape-2 button{
+    margin-top: 1rem;
+    width: 21rem;
+    height: 2rem;
+    background-color: #0172be;
+    color: white;
+    border-radius: .1rem;
+    border: none;
+}
+.contentImage-Annoce{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.anonceImage{
+    display: flex;
+    width: 28rem;
+    margin: 1.5em 1rem 0 0;
+    height: 6rem;
+    background-color: #94d1ff;
+}
+.img-annoce img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 9rem;
+    height: 5.2;
+    overflow: hidden;
+}
+.img-annoce{
+    width: 9rem;
+    height: 5.2;
+}
+
+.btnDelectAnnonce button{
+    position: relative;
+    background-color: #0172be;
+    border: none;
+        border-radius: 2px;
+        color: white;
+        cursor: pointer;
+
+}

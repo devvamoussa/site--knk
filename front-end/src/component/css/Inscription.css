@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ContentShow{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+    top: 0;
+    right: 0; 
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.459); 
+    width: 100vw;
+    height: 100vh;
+
+}
+.overlay {
+    position: absolute;
+    display: none;
+    top: 10rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BoxtitleInscrip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1.2px solid #0172BE;
+    margin-right: 1rem;
+}
+
+.boxTitle{
+    margin-bottom: 0.3rem;
+}
+.iconeFerm{
+    font-size: 1.5rem;
+    color: #0172BE;
+    cursor: pointer;
+}
+
+/*.contentInscription input{
+    width: 21rem;
+    
+    
+    margin-bottom: 1rem;
+    
+}
+.inputInscription input[type=text]{
+    
+}
+.inputbox{
+
+ .inputConnexion1 input{
+    width: 21rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #2083C6;
+}  
+    
+}
+.inputbox input{
+    width: 10rem;
+
+}
+.input-left{
+    margin-left: 0.5rem;
+}*/
+.boxIterm1{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.iterm1Input{
+    padding: 0 1rem 0 0;
+    
+}
+.iterm1Input input{
+    width: 10rem;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    border: 1px solid #2083C6;
+    margin-bottom: 1rem;
+}
+.iterm1Input input[type=text]{
+    padding-left: 0.8rem;
+}
+.boxIterm2 input{
+    width: 21rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2083C6;
+    margin-bottom: 1rem;
+}
+.boxIterm2 input[type=password]{
+    padding-left: 0.8rem;
+}
+.contentFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    width: 24rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: 1px solid #d8d7d7;
+}
+.contentFooter span{
+    margin-left: 1rem;
+    color: #0172BE;
+    cursor: pointer;
+}
+.dateBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem 0 0;
+    width: 6rem;
+    height: 2.5rem;
+    border: 1px solid #2083C6;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+.dateBi input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem 0 0;
+    width: 21rem;
+    height: 2.5rem;
+    border: 1px solid #2083C6;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+.dateBi input[type=date]{
+    font-size: 1rem;
+}
+.dateGenre{
+    display: flex;
+    justify-content: center;
+
+}
+.consigne{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+.consigne span{
+    color: #2083C6;
+}
+.btnInscription button{
+    width: 21rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    background-color: #7CB748;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+/*.displayNone{
+    display: none;
+}
+
+/********************diplay lincription et confirmation de numero*****************************/
+
+.boxContentIcrip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentVerif{
+    width: 100vw;
+    height: 100vh;
+    transform: translate();
+}

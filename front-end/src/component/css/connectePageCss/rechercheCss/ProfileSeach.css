@@ -1,0 +1,40 @@
+.containerProfileSeach{
+    width: 74rem;
+    height: auto;
+
+}
+.barSeach{
+    width: 100%;
+    height: 8rem;
+    background-color: white;
+    border: 1px solid #0172BE;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    margin-bottom: .8rem;
+}
+.seachTitle{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.ProfileSeachImg{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 1rem 0 0;
+}
+.ProfileSeachImg img{
+    width: 100%;
+    height: 100%;
+    margin: 0 1rem 0 0;
+}
+.profileUser{
+    display: flex;
+}
+.workNameUser{
+    margin: .5rem 0 .5rem 0;
+}

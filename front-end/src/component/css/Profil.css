@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contentCod select{
+    height: 2.5rem;
+    width: 28rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2083C6;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+
+}
+.boxCode{
+    display: flex;
+    align-items: center;
+    color: #2083C6;
+
+}
+.VerifInfo{
+    color: #2083C6;
+}

@@ -1,0 +1,6 @@
+.starDixplay{
+    display: flex;
+}
+.starDixplayNone input{
+    display: none;
+}

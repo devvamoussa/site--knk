@@ -1,0 +1,313 @@
+.containerNav{
+    height: 4.9rem;
+    width: 100vw;
+    background-color: #0172BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 8px 5px -6px rgba(0, 0, 0, 0.59);
+    
+   
+}
+.content--term1{
+    width: 14rem;
+    height: 3.8rem;
+    background-color: #FEFEFE;
+    position: relative;
+    border-radius: .3rem;  
+    margin: 2rem;
+   
+}
+.imgIcon--term1{
+    width: 4.2rem;
+    height: auto;
+    position: absolute;
+    bottom: .3rem;
+    cursor: pointer;
+}
+.imgIcon--term1 img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    
+}
+.titleIcone--term1{
+    font-size: .4rem;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    color: #0172BE;
+}
+.card--iterm-2{
+    margin-right: 1rem;
+     
+}
+.formContent--iterm2 input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: .3rem;
+    border: none;
+}
+.formContent--iterm2 input[type=text]{
+    padding-left: 3.8rem;
+    font-size: 1rem;
+    color: #0172BE;
+}
+.inputIconsContent{
+    position: relative;
+}
+.contentIcon--iterm2{
+    position: absolute;
+    bottom: .3rem;
+    left: .8rem;
+    font-size: 1.5rem;
+    color: #0172BE;
+}
+.formContent--iterm2{
+    display: flex;
+    align-items: center;
+
+}
+.iconsInput {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FEFEFE;
+    padding-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+.card--iterm-3{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.Icons--iterm-3{
+    font-size: 2rem;
+    color: #FEFEFE;
+    padding-left: 1.8rem;
+}
+.Icons--iterm-3Img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.Icons--iterm-3Img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.card--iterm-4{
+    display: flex;
+    font-size: 1.3rem;
+    color: #FEFEFE;
+    margin-left: 2rem;
+}
+.iconNav{
+    margin-left: .5rem;
+}
+.iconsInput svg{
+    text-decoration: none;
+    color: #FEFEFE;
+    list-style: none;
+}
+.Icons--iterm-3 svg{
+    text-decoration: none;
+    color: #FEFEFE;
+    list-style: none;
+}
+/****************************************nav togole***************************************************/
+.navToggle Link{
+    text-decoration: none;
+    border-bottom: none;
+    list-style: none;
+}
+.navToggle{
+    border: 1px solid #0172BE;
+    width: 17rem;
+    height: 15rem;
+    position: absolute;
+    position: fixed;
+    background-color: #FEFEFE;
+    display: block;
+    color: #0172BE;
+    padding: 1rem;
+    left: 83.2rem;
+    top: 4.5rem;
+    border-radius: .5rem;
+    transition: transform 0.5s ease;
+
+}
+
+/* .navContainer{
+    border: 1px solid black;
+    width: 17rem;
+    height: 15rem;
+    position: relative;
+    background-color: #FEFEFE;
+    display: block;
+    color: #0172BE;
+    padding: 1rem;
+} */
+
+.iconeProfile Link{
+    text-decoration: none !important;
+    border-bottom: none;
+    align-items: center;
+    font-size: 1.9rem;
+    
+}
+.linkClass{
+        text-decoration: none;
+            font-size: 1.9rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            color: #0172BE;
+}
+.iconeProfile{
+    text-decoration: none !important;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    padding: .4rem;
+}
+.iconeProfile2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    padding: .4rem;
+}
+.iconeProfile2 span {
+    margin-left: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.iconeProfile2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    padding: .4rem;
+}
+
+.iconeProfile3 span {
+    margin-left: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.iconeProfile3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    padding: .4rem;
+}
+.iconeProfile1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    padding: .4rem;
+}
+.iconeProfile span{
+    margin-left: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+   
+}
+.iconeProfile1 span {
+    margin-left: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.iconeProfile span::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    height: 2px;
+    width: 82%;
+    transition: transform 0.5s ease;;
+    background-color: #0172BE;
+}
+.iconeProfile span:hover::before{
+    transform: translateX(-50%) scaleX(1);
+}
+.iconeProfile1 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 128px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    height: 2px;
+    width: 82%;
+    transition: transform 0.5s ease;
+    ;
+    background-color: #0172BE;
+}
+
+.iconeProfile1 span:hover::before {
+    transform: translateX(-50%) scaleX(1);
+}
+.iconeProfile2 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    height: 2px;
+    width: 82%;
+    transition: transform 0.5s ease;
+    ;
+    background-color: #0172BE;
+}
+
+.iconeProfile2 span:hover::before {
+    transform: translateX(-50%) scaleX(1);
+}
+.iconeProfile3 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    height: 2px;
+    width: 82%;
+    transition: transform 0.5s ease;
+    ;
+    background-color: #0172BE;
+}
+
+.iconeProfile3 span:hover::before {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.overlay{
+    bottom: 5rem;
+    position: absolute;
+    display: none;
+    transition: transform 0.5s ease;
+}
+
+/**********************************publication css**************************************/
+
+.btnPublication button{
+    cursor: pointer;
+    margin-left: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: .3rem;
+    border: none;
+    color: #0172BE;
+    font-size: 1rem;
+}

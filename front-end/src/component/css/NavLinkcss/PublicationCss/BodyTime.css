@@ -1,0 +1,43 @@
+.iterm-Time {
+   color: black;
+    width: 60rem;
+    font-size: 2.5rem;
+    
+}
+.itermTime input{
+    border: 1px solid rgb(190, 20, 20);
+    box-sizing: 2rem;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.inputRadio{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.inputRadio p{
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+.itermTime input[type=radio]{
+    border: 1px solid black;
+    
+   
+}
+
+    
+    
+.btnseach button {
+    margin-top: 1rem;
+    background-color: #0172BE;
+    width: 15rem;
+    color: white;
+    height: 3.8rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

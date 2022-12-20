@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Footercontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+.footercopy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

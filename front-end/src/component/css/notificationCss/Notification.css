@@ -1,0 +1,49 @@
+.specification{
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+}
+.specification p{
+    border-bottom: 1px solid #0172BE;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    color: #0172BE;
+}
+.imgNotification{
+    margin: 0 1.5rem 0 .5rem;
+    width: 3rem;
+    height: 3rem;
+    
+}
+.imgNotification img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    
+}
+.boxNotif{
+    display: flex;
+    align-items: center;
+}
+
+.notificationListe{
+    padding: 0 .5rem 0 0;
+    border: 1px solid rgb(199, 199, 199);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    border-radius: .3rem;
+}
+.descriptionNotif p, .NotifSelect{
+    color: #0172BE;
+}
+.containerNotif {
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+}

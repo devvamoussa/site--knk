@@ -1,0 +1,86 @@
+.imgInfo{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 0 1rem 0 0;
+}
+.imgInfo img{
+    width: 100%;
+    height: 100%;
+}
+.infoTitle{
+    display: flex;
+    align-items: center;
+}
+.btnInfo button{
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #0172BE;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.btnInfo button:hover{
+    color: #0172BE;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+.boxDisplayInfo{
+    display: flex;
+    justify-content: space-between;
+    color: #0172BE;
+    margin-bottom: 1rem;
+}
+.nameInfo h3{
+    color: rgb(88, 88, 88);
+}
+.infoTexte{
+    margin: 1rem 0 1rem 0;
+}
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itermInpression{
+    display: flex;
+    align-items: center;
+
+}
+.itermTime p{
+    font-size: 1.1rem;
+    margin: 0 1rem 0 0;
+
+}
+.itermDetails button {
+    margin: 0 0 0 1rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #0172BE;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.itermDetails button:hover {
+    color: #0172BE;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+.itermLike{
+    display: flex;
+    align-items: center;
+}
+.itermLike i{
+    margin: .3rem .5rem 0 0;
+}
+.iconPlusInfo{
+    font-size: 1.2rem;
+    cursor: pointer;
+}

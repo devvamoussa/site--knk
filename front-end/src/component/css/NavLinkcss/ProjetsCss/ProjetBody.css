@@ -1,0 +1,41 @@
+.contentProject{
+    padding-top: 5rem;
+    background-color: rgb(226, 226, 226);
+    height: 100vh;
+    font-size: 1.5rem;
+  
+}
+.containerProjet{
+    margin: 5rem 10rem 0 10rem;
+    
+}
+.projetList{
+    margin-top: 2rem;
+    border: 1px solid #0172BE;
+    height: 11rem;
+    border-radius: .8rem;
+    background-color: white;
+    font-size: 1.5rem;
+}
+.info-iterm{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 1rem 0 ;
+}
+.content-info-iterm{
+    display: flex;
+    height: 80%;
+    margin-left: 1rem;
+    align-items: center;
+}
+.iterm-disponibilite p{
+    color: white;
+    background-color: rgb(141, 141, 141);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 2.4rem;
+    border-radius: .2rem;
+}

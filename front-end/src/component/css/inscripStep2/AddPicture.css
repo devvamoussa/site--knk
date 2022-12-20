@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerAddPict{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/bacgroungImage1.png");
+    background-repeat : no-repeat ;
+    background-size: 100% 100%;
+}
+.contenAddPict{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    width: 40rem;
+    height: auto;
+    padding: 1.5rem 2.5rem .5rem 2.5rem;
+    box-shadow: 9px 10px 5px -5px rgba(0,0,0,0.2);
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.boxContentAdd{
+    margin-top: 1rem;
+    border: 2px dashed #0172be;
+    width: 35rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+.titleAdd{
+    color: #0172be;
+}
+.imgCard{
+    margin-left: 0.8rem;
+    width: 8rem;
+    height: 6rem;
+    
+}
+.imgCard img{
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.btnDelect button{
+    border: none;
+    border-radius: 2px;
+    color: #0172be;
+}
+.btnDelectContent{
+    display: flex;
+}
+.card-iterm2{
+    width: 35rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spancontent span{
+    position: relative;
+    left: 0.2rem;
+    color: #0172be;
+    z-index: 0;
+    
+}
+.AddPict input[type=file]{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    background-color: #0172be;
+    border: none;
+    color: #0172be;
+    cursor: pointer;
+}
+
+.AddPict{
+    display: flex;
+}
+
+.typeImg{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typeImg p{
+    margin-top: .5rem;
+    font-size: .9rem;
+    color: rgb(175, 175, 175);
+}
+.containerPload{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border: 2px solid #F1F9FF;
+    
+}
+.iterm-left{
+    background-color: #F1F9FF;
+    
+    
+}
+.iterm-left p{
+    color: #0172be;
+    font-size: .9rem;
+}
+.iterm-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.iterm-rigth p{
+    padding-left: 0.5rem;
+    color: #0172be;
+    cursor: pointer;
+}
+.pourcentage p{
+    font-size: 0.7rem;
+    color: #c5c5c5;
+}
+
+.titlePiece{
+    color: #0172be;
+    margin-top: 1rem;
+}
+
+.footerContentAdd{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btnSubmitAdd button{
+    cursor: pointer;
+    height: 2.5rem;
+    width: 24rem;
+    border-radius: 0.3rem;
+    background-color: #0172be;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    border: none;
+    color: white;
+}
+.btnRetourAdd{
+    
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.btnRetourAdd p{
+    margin-left: .5rem;
+    cursor: pointer;
+    border-bottom: 1px solid #0172be;
+    color: #0172be;
+    font-size: 1.2rem;
+
+}
+.btnRetour Link{
+    border: none;
+    text-decoration: none;
+}
+
+
+/**********************************************pagegps**********************************/

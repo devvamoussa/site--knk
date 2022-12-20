@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.verifContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/bacgroungImage1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.contentBagroubd{
+    
+}
+.verifGlobal{
+    position: absolute;
+    
+    border-radius: 0.5rem;
+    width: 47rem;
+    height: 15rem;
+    background-color: white;
+}
+.contentMarge{
+    margin: 1rem 2rem 0 2rem;
+}
+.titleVerif{
+    border-bottom: 1.5px solid rgb(39, 39, 39);
+    margin-bottom: 1rem;
+   
+}
+.titleVerif h2{
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.VerifInfo{
+    margin-bottom: 2rem;
+}
+.recepCode{
+    display: flex;
+}
+.recepCode h5{
+    margin-right: 0.5rem;
+}
+.boxCode{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.boxCode input{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #0172be;
+}
+.boxCode h2{
+    margin-right: 0.5rem;
+}
+.contentCode input[type=number]{
+    padding-left: 0.8rem;
+}
+.contentCode input{
+    width: 10rem;
+    
+
+}
+
+
+.contentfooter{
+    width: 47rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background-color: #F2F5FC;
+    display: flex;
+    align-items: center;
+}
+.boxMargfooter{
+    height: 5rem;
+    width: 47rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnContent{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.btnConti button{
+    background-color:  #0172be;
+    color: white;
+    border: none;
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
+.btnConti button:hover{
+    background-color: white;
+    color: rgb(100, 100, 100);
+    border: 1.6px solid #0172be ;
+    transition: all 0.3s ease-in-out;
+
+}
+.btnAnnul button{
+    background-color: white;
+    color: rgb(100, 100, 100);
+    border: 1.6px solid #0172be ;
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
+.btnAnnul button:hover{
+    background-color:  #0172be;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*.overlay {
+    position: absolute;
+    display: none;
+    top: 10rem;
+    transition: all 0.3s ease-in-out;
+}*/
+.overlays{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s ease-in-out;
+    top: 0;
+    right: 0; 
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+}

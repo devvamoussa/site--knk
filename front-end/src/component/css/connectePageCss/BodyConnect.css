@@ -1,0 +1,134 @@
+.containerConnect{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background-color: #F1F5FC;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);      
+}
+
+.itermLeft{
+    width: 52%;
+    height: auto;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    margin-top: 4.5rem;
+    
+    
+}
+.pictureProfile{
+    width: 7rem;
+    height: 7rem;
+    
+    overflow: hidden;
+    
+}
+.pictureProfile img{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    
+}
+.containerProfile{
+    display: flex;
+    align-items: center;
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 13rem;
+    padding: 2rem;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);
+}
+.profileInfo{
+    padding: 1rem;
+}
+.titleArgence{
+    color: #0172BE;
+    margin-bottom: .8rem;
+    font-size: 1rem;
+}
+.titleArgence h2{
+    font-size: 1.2rem;
+}
+.workName{
+    margin-bottom: .8rem;
+    color: #0172BE;
+}
+.pourcentage{
+    margin-bottom: .8rem;
+    display: flex;
+}
+.pourcentageIcone{
+    color: #ff9100;
+    cursor: pointer;
+}
+.btnProfile{
+    display: flex;
+    
+}
+.btnProfile button{
+    background-color: #0172BE;
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    width: 6.8rem;
+    height: 2.2rem;
+    margin: 1rem;
+    font-style: bold;
+    cursor: pointer;
+}
+.btnProfile button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #0172BE;
+    transform: translate( ease-in-out 1ms );
+}
+
+
+
+
+/*************************************container description**************************************************/
+.descriptionProfile {
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);
+}
+.iconModif{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.boxDisplayDescrip {
+    display: flex;
+    justify-content: space-between;
+    color: #0172BE;
+}
+.descriptionTexte{
+    margin-top: 1rem;
+    align-items: flex-end;
+}
+
+
+
+
+
+/***********************************container left*************************************/
+.itermRigth {
+    width: 18%;
+    height: auto;
+    margin-top: 4.5rem;
+
+}
+.profileLink{
+    display: flex;
+    width: 46%;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    color: #0172BE;
+    margin-left: 2rem;
+    cursor: pointer;
+    
+}

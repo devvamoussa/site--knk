@@ -1,0 +1,332 @@
+.containerHomeDetails {
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+
+
+.HomeLocalisation{
+    display: flex;
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);
+}
+.HomeLocalisation2 {
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+.itermRigthInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pictureHome{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 10rem;
+    margin: 0 1rem 0 0;
+}
+.pictureHome img{
+    width: 100%;
+    height: 100%;
+}
+.boxitermLeft{
+    display: flex;
+    align-items: center;
+}
+.nameLocalisation h3 {
+    color: #7DB749;
+}
+.itermTime{
+    color: #7DB749;
+}
+.itermLike{
+    color: #7DB749;
+}
+.itermDetailsLoc button {
+    margin: 0 0 0 1rem;
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    background-color: #7DB749;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.itermDetailsLoc button:hover {
+    color: #0172BE;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+
+.btnInfoLoc button {
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #7DB749;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.btnInfoLoc button:hover{
+    color: #7DB749;
+    background-color: white;
+    border: 1px solid #7DB749;
+}
+.HomeLocalisation {
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid red;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);
+}
+
+
+
+/***************************************card2******************************************************/
+.HomeLocalisation2 {
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid #0172BE;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);
+}
+.nameLocalisation2 h3 {
+    color: #0172BE;
+}
+
+.itermTime2 {
+    color: #0172BE;
+}
+
+.itermLike2 {
+    color: #0172BE;
+}
+
+.itermDetailsLoc2 button {
+    margin: 0 0 0 1rem;
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    background-color: #0172BE;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.itermDetailsLoc2 button:hover {
+    color: #7DB749;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+
+.btnInfoLoc2 button {
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #0172BE;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.btnInfoLoc2 button:hover {
+    color: #7DB749;
+    background-color: white;
+    border: 1px solid #7DB749;
+}
+.itermLike2{
+    display: flex;
+    margin: .2rem 0 0 .5rem ;
+}
+.itermLike2 i{
+    margin: .5rem 0 0 .5rem;
+}
+.itermLike2 p{
+    margin: .5rem .1rem 0 .5rem;
+}
+
+/****************************************iterm--3********************************************************/
+
+.HomeLocalisation3 {
+    background-color: #Ffff;
+    border-radius: .8rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid #0172BE;
+    box-shadow: 1px 8px 22px -7px rgba(0, 0, 0, 0.42);
+}
+
+.nameLocalisation3 h3 {
+    color: #0172BE;
+}
+
+.itermTime3 {
+    color: #0172BE;
+}
+
+.itermLike3 {
+    color: #0172BE;
+}
+
+.itermDetailsLoc3 button {
+    margin: 0 0 0 1rem;
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    background-color: #0172BE;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.itermDetailsLoc3 button:hover {
+    color: #7DB749;
+    background-color: white;
+    border: 1px solid #0172BE;
+}
+
+.btnInfoLoc3 button {
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #0172BE;
+    border: none;
+    border-radius: .2rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.btnInfoLoc3 button:hover {
+    color: #7DB749;
+    background-color: white;
+    border: 1px solid #7DB749;
+}
+
+.itermLike3 {
+    display: flex;
+    margin: .2rem 0 0 .5rem;
+}
+
+.itermLike3 i {
+    margin: .5rem 0 0 .5rem;
+}
+
+.itermLike3 p {
+    margin: .5rem .1rem 0 .5rem;
+}
+.pictureHomeIterm-3 {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    height: 15.4rem;
+    margin: 0 1rem 0 0;
+}
+
+.pictureHomeIterm-3 img {
+    width: 100%;
+    height: 100%;
+}
+.NavLocationDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    height: 1.8rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+.Nav-iterm1{
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 6rem;
+    height: 1.8rem;
+}
+.Nav-iterm1 p{
+    margin-left: .5rem;
+}
+.Nav--iterm3 p{
+    margin-right: .5rem;
+}
+.nameLocalisation3{
+    margin-bottom: .5rem;
+}
+.nameLocalisation3 p{
+    color: #0172BE;
+}
+.PriceHome p{
+    color: #0172BE;
+}
+.PriceHome span {
+    color: #050505;
+    font-weight: bold;
+}
+.LieuxHome span {
+    color: #050505;
+    font-weight: bold;
+}
+.PriceHome{
+    margin-bottom: .5rem;
+}
+.LieuxHome p {
+    color: #0172BE;
+}
+.LieuxHome {
+    margin-bottom: .5rem;
+}
+.DescriptionHome{
+    margin-bottom: .5rem;
+}
+.contentHome-picture{
+    background-color:#0172BE;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+    height: 3rem;
+}
+.itermHome-picture1 img{
+    width: 100%;
+    height: 100%;
+}
+.itermHome-picture1 {
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    height: auto;
+    margin: 0 .5rem 0 .5rem;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.contentHome-picture{
+    display: flex;
+    align-items: center;
+}

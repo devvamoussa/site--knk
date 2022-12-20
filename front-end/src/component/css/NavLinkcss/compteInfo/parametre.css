@@ -1,0 +1,89 @@
+.containerParamet{
+    display: flex;
+    justify-content: center;
+}
+.contentParamet{
+    margin-top: 5rem;
+    width: 88rem;
+    height: 100vh;
+
+    display: flex;
+}
+.itermLeftParamet{
+    width: 30%;
+    height: 100%;
+}
+.itermRightParamet{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+}
+.titleParamet p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.titleParamet{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.iterm-parametre-1 .iconsParametre{
+    padding-left: .8rem;
+    font-size: 1.1rem;
+    height: 2.4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-radius: .1rem;
+    
+}
+.iterm-parametre-1 .iconsParametre:hover{
+    background-color: rgb(235, 235, 236);
+    cursor: pointer;
+}
+.iterm-parametre-1{
+    padding-bottom: 1.5rem;
+}
+.iterm-parametre-1 i{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 2rem;
+    text-align: center;
+}
+
+/*********************************************contentRigthPara******************************************/
+
+.contentRigthPara{
+    width: 86%;
+}
+.titleParametRigth p {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.titleParametRigth {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    border-bottom: 1px solid rgb(138, 138, 138);
+
+}
+.NameContent{
+    
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 35rem;
+    height: 5.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomBorder{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
