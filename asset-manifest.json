@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/site--knk/static/css/main.1fa0c495.css",
+    "main.js": "/site--knk/static/js/main.f534583e.js",
+    "static/js/787.996365d5.chunk.js": "/site--knk/static/js/787.996365d5.chunk.js",
+    "static/media/bacgroungImage1.png": "/site--knk/static/media/bacgroungImage1.b668d9db614756a3b975.png",
+    "static/media/BIA-icone.jpg": "/site--knk/static/media/BIA-icone.0606c14e606adfe7864c.jpg",
+    "static/media/home4.jpg": "/site--knk/static/media/home4.31746e146295af4dfe3e.jpg",
+    "static/media/home2.jpg": "/site--knk/static/media/home2.06636f18cfa0bc3b6fb4.jpg",
+    "static/media/imageAdd.png": "/site--knk/static/media/imageAdd.121d1c79f0aaa19a07d9.png",
+    "index.html": "/site--knk/index.html",
+    "main.1fa0c495.css.map": "/site--knk/static/css/main.1fa0c495.css.map",
+    "main.f534583e.js.map": "/site--knk/static/js/main.f534583e.js.map",
+    "787.996365d5.chunk.js.map": "/site--knk/static/js/787.996365d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa0c495.css",
+    "static/js/main.f534583e.js"
+  ]
+}
